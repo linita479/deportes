@@ -1,0 +1,386 @@
+@font-face {
+    font-family: "Fuentetitulo";
+    src: url(/fonts/HALLOWEEN\ PARTY.otf);
+
+}
+
+@font-face {
+    font-family: "Fuentesub";
+    src: url(/fonts/Grandson.otf);
+}
+
+@font-face {
+    font-family: "fuenteParrafo";
+    src: url(/fonts/Always\ Optimistic.ttf);
+}
+
+@font-face {
+    font-family: "fuentepp";
+    src: url(/fonts/Baby.otf);
+}
+
+/* @keyframes moverX {
+    0% {
+        left: 0; 
+    }
+    100% {
+        left: 300px; 
+    }
+} */
+
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
+
+@keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+body {
+    background: linear-gradient(to bottom,#151515  ,  #0D7C66 100% ); 
+    /* height: 100vh;   */
+    /* margin: 0;
+    display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+/* .chayane{
+    width: 100px;
+    height: 100px;
+    animation:moverX 1s infinite alternate ease-in-out ;
+    position: relative;
+} */
+
+.encabezado__titulo{
+    font-size: 80px;
+    font-family: "Fuentetitulo";
+    color: black;
+    text-shadow: 0 0 10px white, 
+    0 0 20px white, 
+    0 0 30px white; 
+
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid chartreuse;
+    width: 100%;
+    height: 150px;
+}
+
+
+.encabezado__imagenPato{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+.descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.descripcion__contenedor{
+
+    display: block;
+    text-align: center;
+    margin: 20px;
+    
+}
+.descripcion__parrafo{
+    margin-top: 30px;
+    font-family: "fuenteParrafo" ;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 200px;
+
+
+}
+
+
+
+.deportes{
+    display: flex;
+    margin-left: 80px;
+
+    
+}
+
+
+.deportes__parkour{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    border: solid  #DC0083;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+    display: block;
+
+}
+
+.deportes__parkour:hover{
+    background-color: #DC0083;
+    border: solid black;
+}
+
+/* .deportes__parkour:hover{
+    background-color: black;
+} */
+
+
+.deportes__parkourt{
+    font-family: "Fuentesub";
+    font-size: 50px;
+    text-shadow: 0 0 10px #FF8C9E, 
+    0 0 20px #FF8C9E, 
+    0 0 30px #FF8C9E;
+    margin-left: 130px;
+    position: absolute; 
+    top: 440px;
+
+}
+
+
+.deportes__parkourd{
+    font-family: "fuenteParrafo";
+    font-size: 20px;
+    margin-top: 50px;
+    color: white;
+
+}
+
+.deportes__img{
+    width: 200px;
+    height: 150px;
+    /* display: inline-block; */
+}
+
+
+.deportes__bmxc{
+    width: 400px;
+    height: 500px;
+    background-color:black;
+    border: solid  #37AFE1;
+    border-radius: 30px;
+    margin-left: 80px;
+    display: flex;
+    text-align: center;
+    display: block;
+    margin-right: 90px;
+    
+}
+
+.deportes__bmxc:hover{
+    background-color: #37AFE1;
+    border: solid black;
+
+}
+
+
+.deportes__bmx{
+    font-family: "Fuentesub";
+    font-size: 50px;
+    text-shadow: 0 0 10px #52D3D8, 
+    0 0 20px #52D3D8, 
+    0 0 30px #52D3D8;
+    position: absolute; 
+    top: 440px;
+    margin-left: 650px;
+
+
+
+
+
+}
+
+.deportes__bmxp{
+    font-family: "fuenteParrafo";
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    
+
+
+}
+
+
+.deportes__imgp{
+    width: 200px;
+    height: 100px;
+}
+
+.deportes__imgR{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 1100px;
+    top: 820px;
+    animation: girar 1s linear infinite;
+    
+}
+
+.deportes__boliranaTlt{
+    font-family: "Fuentesub";
+    font-size: 50px;
+    text-shadow: 0 0 10px #7A1CAC, 
+    0 0 20px #7A1CAC, 
+    0 0 30px #FF8C9E;
+    position: absolute;
+    top: 440px;
+    margin-left: 1120px;
+
+}
+
+
+
+
+.deportes__bolirana{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    border: solid #7A1CAC;
+    border-radius: 30px;
+}
+
+.deportes__bolirana:hover{
+    border: solid black;
+    background-color:#7A1CAC ;
+    
+}
+
+
+
+.deportes__boliranaP{
+    color: white;
+    font-family: "fuenteParrafo";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+
+
+.descripcion__subtitulo{
+    width: 1500px;
+    height: 55px;
+    border: solid #009FBD;
+    
+    position: absolute;
+
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: black;
+    align-items: center;
+}
+
+.descripcion__prrf{
+    color: white;
+    font-family: "fuenteParrafo";
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+
+.piePagina{
+    width: 100%;
+    height: 150px;
+    /* border: solid chartreuse; */
+    background: linear-gradient(to bottom,#151515  ,  #0D7C66 100% ); 
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* position: absolute; */
+    
+
+}
+
+.piePagina__fb{
+    font-family:"fuentepp" ;
+    font-size: 30px;
+    color: white;
+    /* margin-left: 300px; */
+    text-shadow: 0 0 10px #F7418F, 
+    0 0 20px #5E1675, 
+    0 0 30px #59D5E0;
+
+}
+
+
+.piePagina__imgf{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin-left: 200px;
+}
+
+.piePagina__ing{
+    font-family: "fuentepp";
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 10px #F7418F, 
+    0 0 20px #5E1675, 
+    0 0 30px #59D5E0;
+
+
+}
+
+.piePagina__imgI{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin-left: 200px;
+
+}
+
+
+.piePagina__imgT{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+
+.piePagina__ttr{
+    font-family:"fuentepp" ;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 10px #F7418F, 
+    0 0 20px #5E1675, 
+    0 0 30px #59D5E0;
+}
+
